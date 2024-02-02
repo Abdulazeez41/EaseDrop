@@ -1,7 +1,11 @@
-import { HardhatUserConfig } from "hardhat/config";
+// @ts-nocheck
+
 import "@nomicfoundation/hardhat-toolbox";
 import "@nomiclabs/hardhat-etherscan";
+import "@nomiclabs/hardhat-ethers";
+import "hardhat-gas-reporter";
 import "dotenv/config";
+import { HardhatUserConfig } from "hardhat/config";
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 //const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY;

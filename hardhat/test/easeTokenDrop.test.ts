@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import { ethers } from "hardhat";
 import { Signer } from "ethers";
-import { EaseTokenDrop } from "../typechain";
+import { EaseTokenDrop } from "../typechain-types";
 
 describe("EaseTokenDrop", function () {
   let owner: Signer,
